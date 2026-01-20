@@ -38,6 +38,7 @@ const dataAnggota = {
     const data = dataAnggota[key];
   
     content.innerHTML = `
+      <div class="avatar">${data.nama.charAt(0)}</div>
       <h3>${data.nama}</h3>
       <p><strong>Role:</strong> ${data.role}</p>
       <p><strong>Hobi:</strong> ${data.hobi}</p>
