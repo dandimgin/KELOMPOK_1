@@ -3,11 +3,11 @@
 Project ini dibuat untuk tugas kelompok tentang penggunaan Git dan GitHub.
 
 ## Anggota Kelompok
-- Muhammad Reza Alfian
 - Rakha Zuhdi Naufal
 - Dandi Fairuz
 - Nadya Cheril Dedi
 - Gading Mochamad Milan
+- Muhammad Reza Alfian
 - M. Husein Alfah Reza
 
 ## Tujuan
