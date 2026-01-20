@@ -6,17 +6,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <h1>Project Kelompok GitHub</h1>
   <p>Ini adalah project tugas kelompok menggunakan Git dan GitHub.</p>
 
   <h2>Anggota Kelompok</h2>
   <ul>
-    <li>Rakha Zuhdi Naufal</li>
-    <li>Dandi Fairuz</li>
-    <li>Nadya Cheril Dedi</li>
-    <li>Gading Mochamad Milan</li>
-    <li> Muhammad Reza Alfian</li>
-    <li>M. Husein Alfah Reza</li>
+    <li onclick="openModal('rakha')">Rakha Zuhdi Naufal</li>
+    <li onclick="openModal('dandi')">Dandi Fairuz</li>
+    <li onclick="openModal('cheril')">Nadya Cheril Dedi</li>
+    <li onclick="openModal('gading')">Gading Mochamad Milan</li>
+    <li onclick="openModal('reza')">Muhammad Reza Alfian</li>
+    <li onclick="openModal('husein')">M. Husein Alfah Reza</li>
   </ul>
+
+  <!-- OVERLAY -->
+  <div id="overlay" class="overlay hidden" onclick="closeModal()"></div>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal hidden">
+    <button class="close-btn" onclick="closeModal()">×</button>
+    <div id="modal-content"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
